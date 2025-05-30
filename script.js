@@ -33,6 +33,20 @@ document.addEventListener('DOMContentLoaded', () => {
         "nosso emogis são como um reflexo do nosso amor. Eles falam por nós.",*/
         "nossa loucura juntos foi a melhor parte dessa historia doida.",
         "Quria ser seu cinto, para te abraçar e sentir seu calor. acima de tudo, tocar essas tores.",
+        "Esse olhar... que perigo bom",
+        "O encontro foi breve, o impacto não.",
+        "Já estou a imaginar o próximo.",
+        "Deixaste um rasto de curiosidade.",
+        "E um perfume que vicia.",
+        "A tua conversa tem um tempero especial.",
+        "Sinto que há mais para descobrir.",
+        "A noite ficou mais interessante depois de ti.",
+        "Um brinde ao que começou.",
+        "Tens um jeito que desarma e encanta.",
+        "Ainda a decifrar os teus sinais...",
+        "E a gostar do mistério.",
+        "O replay do nosso encontro está em loop.",
+        "Que a próxima vez não demore..",
     ];
     
 
@@ -51,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function displayMessages() {
-        const [msg1, msg2, msg3] = getRandomMessages();
+        const [msg1] = getRandomMessages();
         message1Element.textContent = msg1;
         //message2Element.textContent = msg2;
         //message3Element.textContent = msg3;
