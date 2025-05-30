@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const messages = [
+    /*const messages = [
         "Deisy, Eu te amo muito! Você é a pessoa mais incrível do mundo.",
         "Deisy, Cada momento ao seu lado é um presente. Meu amor por você cresce a cada dia.",
         "Deisy, Seu sorriso ilumina meu dia. Você é a razão da minha felicidade.",
@@ -9,6 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
         "Deisy, Você é a minha melodia favorita em meio ao caos do mundo. Amo você!",
         "Deisy, Com você, cada dia é uma nova aventura cheia de amor e alegria.",
         "Deisy, Sua existência torna o mundo um lugar muito mais bonito. Eu te amo infinitamente."
+    ];*/
+     const messages = [
+        "Deisy, tudo isso ´´e pa mstrou, horas ki bu odja pa bu fla el alguem ki mas aman na vida"
     ];
 
     const message1Element = document.getElementById('message1');
