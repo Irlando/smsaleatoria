@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const messages = [
-       /* " Eu te amo muito! Você é a pessoa mais incrível do mundo.",
+        " Eu te amo muito! Você é a pessoa mais incrível do mundo.",
         " Cada momento ao seu lado é um presente. Meu amor por você cresce a cada dia.",
         " Seu sorriso ilumina meu dia. Você é a razão da minha felicidade.",
         "Não há palavras suficientes para expressar o quanto eu te adoro.",
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Seu olhar é como um farol que ilumina meu caminho.",
         "nosso encontro foi como um sonho realizado. Sonhei muito com esse dia.",
         "Eu nao gositeir de estar com você, eu amei !.",
-        "nosso emogis são como um reflexo do nosso amor. Eles falam por nós.",*/
+        "nosso emogis são como um reflexo do nosso amor. Eles falam por nós.",
         "nossa loucura juntos foi a melhor parte dessa historia doida.",
         "Quria ser seu cinto, para te abraçar e sentir seu calor. acima de tudo, tocar essas tores.",
         "Esse olhar... que perigo bom",
@@ -47,6 +47,21 @@ document.addEventListener('DOMContentLoaded', () => {
         "E a gostar do mistério.",
         "O replay do nosso encontro está em loop.",
         "Que a próxima vez não demore..",
+        "Nosso encontro: um código que compilou perfeito.",
+        "Teu olhar desbloqueou meu firewall.",
+        "Quero um while true loop contigo.",
+        "Nosso algoritmo de atração é complexo e viciante.",
+        "Tens a chave de acesso ao meu sistema.",
+        "Teu sorriso é meu bug favorito, me para por completo.",
+        "Sinto que nossa conexão é de alta velocidade.",
+        "Quero depurar cada detalhe teu.",
+        "Teu input gerou o melhor output no meu dia.",
+        "Minha API está pronta para teus requests.",
+        "És o upgrade que minha rotina precisava.",
+        "Nosso match tem a melhor heurística.",
+        "Teu charme é um exploit no meu sistema de defesa.",
+        "Quero ser o admin do teu coração.",
+        "Nosso encontro foi só o beta test do que vem por aí.",
     ];
     
 
