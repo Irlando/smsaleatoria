@@ -1,0 +1,119 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient_to_r, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #e91e63;
+    margin-bottom: 30px;
+    font-size: 2.8em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.message-display {
+    margin-bottom: 30px;
+}
+
+.message {
+    background-color: #ffebee;
+    color: #c2185b;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    font-size: 1.3em;
+    font-weight: 400;
+    border-left: 5px solid #e91e63;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.message:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #d81b60;
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2em;
+    }
+
+    .message {
+        font-size: 1.1em;
+        padding: 12px;
+    }
+
+    .container {
+        padding: 30px;
+        margin: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .message {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    button {
+        padding: 12px 20px;
+        font-size: 1em;
+    }
+}
