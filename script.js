@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "Deisy, Sua existência torna o mundo um lugar muito mais bonito. Eu te amo infinitamente."
     ];*/
      const messages = [
-        "Deisy, tudo isso ´´e pa mstrou, horas ki bu odja pa bu fla el alguem ki mas aman na vida"
+         "Deisy, tudo isso ´´e pa mstrou, horas ki bu odja pa bu fla el alguem ki mas aman na vida",
+         "bu beojo bu toke, bu sorriso, bu risada, bu tudo, nkrel mas um bes",
     ];
 
     const message1Element = document.getElementById('message1');
