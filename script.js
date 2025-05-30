@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const messages = [
-        " Eu te amo muito! Você é a pessoa mais incrível do mundo.",
+       /* " Eu te amo muito! Você é a pessoa mais incrível do mundo.",
         " Cada momento ao seu lado é um presente. Meu amor por você cresce a cada dia.",
         " Seu sorriso ilumina meu dia. Você é a razão da minha felicidade.",
         "Não há palavras suficientes para expressar o quanto eu te adoro.",
@@ -11,6 +11,28 @@ document.addEventListener('DOMContentLoaded', () => {
         " Sua existência torna o mundo um lugar muito mais bonito. Eu te amo infinitamente.",
         " tudo isso ´´e pa mstrou, horas ki bu odja pa bu fla el alguem ki mas aman na vida",
         "bu beojo bu toke, bu sorriso, bu risada, bu tudo, nkrel mas um bes",
+        " Você é a razão do meu sorriso e da minha felicidade. Te amo profundamente.",
+        " Seu amor é a luz que ilumina meu caminho. Estou eternamente grato por você.",
+        " Cada dia ao seu lado é uma bênção. Você é meu tudo.",
+        " Você é a minha razão de viver. Te amo mais do que palavras podem dizer.",
+        " Você é a minha inspiração diária. Te amo mais do que você pode imaginar.", 
+        "cada momento com você é especial. Você é a razão do meu sorriso.",
+        "tudo que faço é pensando em você. Você é a minha felicidade.",
+        "voce deu sentido à minha vida. Te amo mais do que tudo.",
+        "Você é a minha razão de viver. Te amo mais do que palavras podem expressar.",
+        "palavras não podem descrever o quanto eu te amo. Você é tudo para mim.",
+        "a distancia não diminui meu amor por você. Você está sempre no meu coração.",
+        "todos esses anos longe, meu amor por você só cresceu. Você é minha vida.",
+        "queria tanto poder estar com você agora. Você é a minha felicidade.",
+        "Queria tanto poder te abraçar agora. Você é a razão do meu sorriso.",
+        "Cada live que faço é pensando em você. Você é a minha felicidade.",
+        "Sentir seu cheiro é como sentir o perfume das flores mais lindas. ",
+        "Seu olhar é como um farol que ilumina meu caminho.",
+        "nosso encontro foi como um sonho realizado. Sonhei muito com esse dia.",
+        "Eu nao gositeir de estar com você, eu amei !.",
+        "nosso emogis são como um reflexo do nosso amor. Eles falam por nós.",*/
+        "nossa loucura juntos foi a melhor parte dessa historia doida.",
+        "Quria ser seu cinto, para te abraçar e sentir seu calor. acima de tudo, tocar essas tores.",
     ];
     
 
