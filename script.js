@@ -1,19 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
-    /*const messages = [
-        "Deisy, Eu te amo muito! Você é a pessoa mais incrível do mundo.",
-        "Deisy, Cada momento ao seu lado é um presente. Meu amor por você cresce a cada dia.",
-        "Deisy, Seu sorriso ilumina meu dia. Você é a razão da minha felicidade.",
-        "Deisy,Não há palavras suficientes para expressar o quanto eu te adoro.",
-        "Deisy, Você me completa de uma forma que eu nunca imaginei ser possível. Amo você!",
-        "Deisy, Meu coração é seu, hoje e sempre. Te amo além das estrelas.",
-        "Deisy, Você é a minha melodia favorita em meio ao caos do mundo. Amo você!",
-        "Deisy, Com você, cada dia é uma nova aventura cheia de amor e alegria.",
-        "Deisy, Sua existência torna o mundo um lugar muito mais bonito. Eu te amo infinitamente."
-    ];*/
-     const messages = [
-         "Deisy, tudo isso ´´e pa mstrou, horas ki bu odja pa bu fla el alguem ki mas aman na vida",
-         "bu beojo bu toke, bu sorriso, bu risada, bu tudo, nkrel mas um bes",
+    const messages = [
+        " Eu te amo muito! Você é a pessoa mais incrível do mundo.",
+        " Cada momento ao seu lado é um presente. Meu amor por você cresce a cada dia.",
+        " Seu sorriso ilumina meu dia. Você é a razão da minha felicidade.",
+        "Não há palavras suficientes para expressar o quanto eu te adoro.",
+        " Você me completa de uma forma que eu nunca imaginei ser possível. Amo você!",
+        " Meu coração é seu, hoje e sempre. Te amo além das estrelas.",
+        " Você é a minha melodia favorita em meio ao caos do mundo. Amo você!",
+        " Com você, cada dia é uma nova aventura cheia de amor e alegria.",
+        " Sua existência torna o mundo um lugar muito mais bonito. Eu te amo infinitamente.",
+        " tudo isso ´´e pa mstrou, horas ki bu odja pa bu fla el alguem ki mas aman na vida",
+        "bu beojo bu toke, bu sorriso, bu risada, bu tudo, nkrel mas um bes",
     ];
+    
 
     const message1Element = document.getElementById('message1');
     const message2Element = document.getElementById('message2');
