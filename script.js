@@ -1,6 +1,16 @@
 document.addEventListener('DOMContentLoaded', () => {
     const messages = [
-        " Eu te amo muito! Você é a pessoa mais incrível do mundo.",
+        "😎 kz bu sa spera odja li?",
+        "si bu kre sabi de verdade, continua.🧐",
+        "curisidade mata gato, 🤪 mas gato tem sete vidas.",
+        "xan flau, mas entre nós.🤭",
+        "tudo bes kin fitxa odjou👀, vejo aquelas nadigas branquinhas😬, e uma linha vermelha.",
+        "deitada ta sprean😏 pa desbrava 🙈. oiii!",
+        "odja md ta rapian 👻 corpo, kkkkk", 
+        "keli go bu ka esperaba. kkkk",
+        "djan kreba odjaba bu rosto ta leba isso😅",
+        "😅❤️❤️❤️❤️💕😅",
+        /*" Eu te amo muito! Você é a pessoa mais incrível do mundo.",
         " Cada momento ao seu lado é um presente. Meu amor por você cresce a cada dia.",
         " Seu sorriso ilumina meu dia. Você é a razão da minha felicidade.",
         "Não há palavras suficientes para expressar o quanto eu te adoro.",
@@ -9,9 +19,9 @@ document.addEventListener('DOMContentLoaded', () => {
         " Você é a minha melodia favorita em meio ao caos do mundo. Amo você!",
         " Com você, cada dia é uma nova aventura cheia de amor e alegria.",
         " Sua existência torna o mundo um lugar muito mais bonito. Eu te amo infinitamente.",
-        " tudo isso ´´e pa mstrou, horas ki bu odja pa bu fla el alguem ki mas aman na vida",
+        " tudo isso ´´e pa mstrou, horas ki bu odja pa bu fla el alguem ki mas aman na vida",*/
         "bu beojo bu toke, bu sorriso, bu risada, bu tudo, nkrel mas um bes",
-        " Você é a razão do meu sorriso e da minha felicidade. Te amo profundamente.",
+       /* " Você é a razão do meu sorriso e da minha felicidade. Te amo profundamente.",
         " Seu amor é a luz que ilumina meu caminho. Estou eternamente grato por você.",
         " Cada dia ao seu lado é uma bênção. Você é meu tudo.",
         " Você é a minha razão de viver. Te amo mais do que palavras podem dizer.",
@@ -61,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Nosso match tem a melhor heurística.",
         "Teu charme é um exploit no meu sistema de defesa.",
         "Quero ser o admin do teu coração.",
-        "Nosso encontro foi só o beta test do que vem por aí.",
+        "Nosso encontro foi só o beta test do que vem por aí.",*/
     ];
     
 
@@ -70,13 +80,26 @@ document.addEventListener('DOMContentLoaded', () => {
     const message3Element = document.getElementById('message3');
     const newMessageBtn = document.getElementById('newMessageBtn');
 
+    // Mantém um array para armazenar as mensagens já exibidas
+    const shownMessages = [];
+    let next = 0;
     function getRandomMessages() {
         const selectedMessages = new Set();
+       
         while (selectedMessages.size < 1) {
-            const randomIndex = Math.floor(Math.random() * messages.length);
-            selectedMessages.add(messages[randomIndex]);
+            if (next >= messages.length) {
+                next = 0; // Reinicia o índice se todas as mensagens já foram mostradas
+            }
+            const randomIndex = Math.floor(next);
+            //console.log(`Random Index: ${randomIndex}`);
+            const msg = messages[randomIndex];
+            selectedMessages.add(msg);
+            next++;
         }
-        return Array.from(selectedMessages);
+        // Adiciona a mensagem exibida ao array de mensagens já mostradas
+        const [selectedMsg] = Array.from(selectedMessages);
+        shownMessages.push(selectedMsg);
+        return [selectedMsg];
     }
 
     function displayMessages() {
