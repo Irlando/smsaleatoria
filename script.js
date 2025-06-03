@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const messages = [
-        "😎 kz bu sa spera odja li?",
+        /*"😎 kz bu sa spera odja li?",
         "si bu kre sabi de verdade, continua.🧐",
         "curisidade mata gato, 🤪 mas gato tem sete vidas.",
         "xan flau, mas entre nós.🤭",
@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "odja md ta rapian 👻 corpo, kkkkk", 
         "keli go bu ka esperaba. kkkk",
         "djan kreba odjaba bu rosto ta leba isso😅",
-        "😅❤️❤️❤️❤️💕😅",
-        /*" Eu te amo muito! Você é a pessoa mais incrível do mundo.",
+        "😅❤️❤️❤️❤️💕😅",*/
+        " Eu te amo muito! Você é muito.",
         " Cada momento ao seu lado é um presente. Meu amor por você cresce a cada dia.",
         " Seu sorriso ilumina meu dia. Você é a razão da minha felicidade.",
         "Não há palavras suficientes para expressar o quanto eu te adoro.",
@@ -19,35 +19,32 @@ document.addEventListener('DOMContentLoaded', () => {
         " Você é a minha melodia favorita em meio ao caos do mundo. Amo você!",
         " Com você, cada dia é uma nova aventura cheia de amor e alegria.",
         " Sua existência torna o mundo um lugar muito mais bonito. Eu te amo infinitamente.",
-        " tudo isso ´´e pa mstrou, horas ki bu odja pa bu fla el alguem ki mas aman na vida",*/
-        "bu beojo bu toke, bu sorriso, bu risada, bu tudo, nkrel mas um bes",
-       /* " Você é a razão do meu sorriso e da minha felicidade. Te amo profundamente.",
-        " Seu amor é a luz que ilumina meu caminho. Estou eternamente grato por você.",
-        " Cada dia ao seu lado é uma bênção. Você é meu tudo.",
-        " Você é a minha razão de viver. Te amo mais do que palavras podem dizer.",
+        "bu beijo bu toke, bu sorriso, bu risada, bu tudo, nkrel mas um bes",
+        " Você é a razão do meu sorriso e da minha felicidade. Te amo profundamente.",
+        " Cada dia ao seu lado é uma bênção. ",
+        "  Te amo mais do que palavras podem dizer.",
         " Você é a minha inspiração diária. Te amo mais do que você pode imaginar.", 
-        "cada momento com você é especial. Você é a razão do meu sorriso.",
-        "tudo que faço é pensando em você. Você é a minha felicidade.",
+        "cada momento com você é especial.",
+        "tudo que faço é pensando em você.",
         "voce deu sentido à minha vida. Te amo mais do que tudo.",
-        "Você é a minha razão de viver. Te amo mais do que palavras podem expressar.",
-        "palavras não podem descrever o quanto eu te amo. Você é tudo para mim.",
+        " Te amo mais do que palavras podem expressar.",
+        "palavras não podem descrever o quanto eu te amo.",
         "a distancia não diminui meu amor por você. Você está sempre no meu coração.",
-        "todos esses anos longe, meu amor por você só cresceu. Você é minha vida.",
-        "queria tanto poder estar com você agora. Você é a minha felicidade.",
-        "Queria tanto poder te abraçar agora. Você é a razão do meu sorriso.",
-        "Cada live que faço é pensando em você. Você é a minha felicidade.",
+        "todos esses anos longe, meu amor por você só cresceu.",
+        "queria tanto poder estar com você agora. ",
+        "Queria tanto poder te abraçar agora. ",
+        "Cada live que faço é pensando em você. ",
         "Sentir seu cheiro é como sentir o perfume das flores mais lindas. ",
         "Seu olhar é como um farol que ilumina meu caminho.",
-        "nosso encontro foi como um sonho realizado. Sonhei muito com esse dia.",
-        "Eu nao gositeir de estar com você, eu amei !.",
-        "nosso emogis são como um reflexo do nosso amor. Eles falam por nós.",
+        "nosso encontro foi como um sonho realizado. ",
+        "Eu nao gostei de estar com você, eu amei !.",
+        "nosso emogis são como um reflexo do nossos sentimentos. Eles falam por nós.",
         "nossa loucura juntos foi a melhor parte dessa historia doida.",
         "Quria ser seu cinto, para te abraçar e sentir seu calor. acima de tudo, tocar essas tores.",
-        "Esse olhar... que perigo bom",
+        "Esse olhar... que perigo bom!",
         "O encontro foi breve, o impacto não.",
         "Já estou a imaginar o próximo.",
-        "Deixaste um rasto de curiosidade.",
-        "E um perfume que vicia.",
+        "Deixaste um rasto de curiosidade. E um perfume que vicia.",
         "A tua conversa tem um tempero especial.",
         "Sinto que há mais para descobrir.",
         "A noite ficou mais interessante depois de ti.",
@@ -71,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Nosso match tem a melhor heurística.",
         "Teu charme é um exploit no meu sistema de defesa.",
         "Quero ser o admin do teu coração.",
-        "Nosso encontro foi só o beta test do que vem por aí.",*/
+        "Nosso encontro foi só o beta test do que vem por aí.", 
     ];
     
 
@@ -90,7 +87,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (next >= messages.length) {
                 next = 0; // Reinicia o índice se todas as mensagens já foram mostradas
             }
-            const randomIndex = Math.floor(next);
+            const randomIndex = Math.floor(Math.random() * messages.length);
+            //const randomIndex = Math.floor(next);
             //console.log(`Random Index: ${randomIndex}`);
             const msg = messages[randomIndex];
             selectedMessages.add(msg);
