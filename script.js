@@ -10,9 +10,11 @@ document.addEventListener('DOMContentLoaded', () => {
         "keli go bu ka esperaba. kkkk",
         "djan kreba odjaba bu rosto ta leba isso😅",*/
         "❤️❤️❤️❤️💕",
-        "Eu te amo muito! Você é muito.",
+        /*"Eu te amo muito! Você é muito.",
         "Cada momento ao seu lado é um presente.",
-        "Seu sorriso ilumina meu dia.  ❤️ ",
+        "Seu sorriso ilumina meu dia.  ❤️ ",*/
+        "😎",
+        "😂",
         /*"Não há palavras suficientes para expressar o quanto eu te adoro.",
         "Você me completa de uma forma que eu nunca imaginei ser possível. Amo você!",
         "Meu coração é seu, hoje e sempre. Te amo além das estrelas.",
