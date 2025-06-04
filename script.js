@@ -8,26 +8,26 @@ document.addEventListener('DOMContentLoaded', () => {
         "deitada ta sprean😏 pa desbrava 🙈. oiii!",
         "odja md ta rapian 👻 corpo, kkkkk", 
         "keli go bu ka esperaba. kkkk",
-        "djan kreba odjaba bu rosto ta leba isso😅",
-        "😅❤️❤️❤️❤️💕😅",*/
-        " Eu te amo muito! Você é muito.",
-        " Cada momento ao seu lado é um presente. Meu amor por você cresce a cada dia.",
-        " Seu sorriso ilumina meu dia. Você é a razão da minha felicidade.",
+        "djan kreba odjaba bu rosto ta leba isso😅",*/
+        "😅❤️❤️❤️❤️💕😅",
+        "Eu te amo muito! Você é muito.",
+        "Cada momento ao seu lado é um presente. Meu amor por você cresce a cada dia.",
+        "Seu sorriso ilumina meu dia. Você é a razão da minha felicidade.",
         "Não há palavras suficientes para expressar o quanto eu te adoro.",
-        " Você me completa de uma forma que eu nunca imaginei ser possível. Amo você!",
-        " Meu coração é seu, hoje e sempre. Te amo além das estrelas.",
-        " Você é a minha melodia favorita em meio ao caos do mundo. Amo você!",
-        " Com você, cada dia é uma nova aventura cheia de amor e alegria.",
-        " Sua existência torna o mundo um lugar muito mais bonito. Eu te amo infinitamente.",
+        "Você me completa de uma forma que eu nunca imaginei ser possível. Amo você!",
+        "Meu coração é seu, hoje e sempre. Te amo além das estrelas.",
+        "Você é a minha melodia favorita em meio ao caos do mundo. Amo você!",
+        "Com você, cada dia é uma nova aventura cheia de amor e alegria.",
+        "Sua existência torna o mundo um lugar muito mais bonito. Eu te amo infinitamente.",
         "bu beijo bu toke, bu sorriso, bu risada, bu tudo, nkrel mas um bes",
-        " Você é a razão do meu sorriso e da minha felicidade. Te amo profundamente.",
-        " Cada dia ao seu lado é uma bênção. ",
-        "  Te amo mais do que palavras podem dizer.",
-        " Você é a minha inspiração diária. Te amo mais do que você pode imaginar.", 
+        "Você é a razão do meu sorriso e da minha felicidade. Te amo profundamente.",
+        "Cada dia ao seu lado é uma bênção. ",
+        "Te amo mais do que palavras podem dizer.",
+        "Você é a minha inspiração diária. Te amo mais do que você pode imaginar.", 
         "cada momento com você é especial.",
         "tudo que faço é pensando em você.",
         "voce deu sentido à minha vida. Te amo mais do que tudo.",
-        " Te amo mais do que palavras podem expressar.",
+        "Te amo mais do que palavras podem expressar.",
         "palavras não podem descrever o quanto eu te amo.",
         "a distancia não diminui meu amor por você. Você está sempre no meu coração.",
         "todos esses anos longe, meu amor por você só cresceu.",
@@ -70,42 +70,41 @@ document.addEventListener('DOMContentLoaded', () => {
         "Quero ser o admin do teu coração.",
         "Nosso encontro foi só o beta test do que vem por aí.", 
     ];
-    
 
-    const message1Element = document.getElementById('message1');
-    const message2Element = document.getElementById('message2');
-    const message3Element = document.getElementById('message3');
-    const newMessageBtn = document.getElementById('newMessageBtn');
+const message1Element = document.getElementById('message1');
+const message2Element = document.getElementById('message2');
+const message3Element = document.getElementById('message3');
+const newMessageBtn = document.getElementById('newMessageBtn');
 
-    // Mantém um array para armazenar as mensagens já exibidas
-    const shownMessages = [];
-    let next = 0;
-    function getRandomMessages() {
-        const selectedMessages = new Set();
-       
-        while (selectedMessages.size < 1) {
-            if (next >= messages.length) {
-                next = 0; // Reinicia o índice se todas as mensagens já foram mostradas
-            }
-            const randomIndex = Math.floor(Math.random() * messages.length);
-            //const randomIndex = Math.floor(next);
-            //console.log(`Random Index: ${randomIndex}`);
-            const msg = messages[randomIndex];
-            selectedMessages.add(msg);
-            next++;
+// Mantém um array para armazenar as mensagens já exibidas
+const shownMessages = [];
+let next = 0;
+function getRandomMessages() {
+    const selectedMessages = new Set();
+
+    while (selectedMessages.size < 1) {
+        if (next >= messages.length) {
+            next = 0; // Reinicia o índice se todas as mensagens já foram mostradas
         }
-        // Adiciona a mensagem exibida ao array de mensagens já mostradas
-        const [selectedMsg] = Array.from(selectedMessages);
-        shownMessages.push(selectedMsg);
-        return [selectedMsg];
+        const randomIndex = Math.floor(Math.random() * messages.length);
+        //const randomIndex = Math.floor(next);
+        //console.log(`Random Index: ${randomIndex}`);
+        const msg = messages[randomIndex];
+        selectedMessages.add(msg);
+        next++;
     }
+    // Adiciona a mensagem exibida ao array de mensagens já mostradas
+    const [selectedMsg] = Array.from(selectedMessages);
+    shownMessages.push(selectedMsg);
+    return [selectedMsg];
+}
 
-    function displayMessages() {
-        const [msg1] = getRandomMessages();
-        message1Element.textContent = msg1;
-        //message2Element.textContent = msg2;
-        //message3Element.textContent = msg3;
-    }
+function displayMessages() {
+    const [msg1] = getRandomMessages();
+    message1Element.textContent = msg1;
+    //message2Element.textContent = msg2;
+    //message3Element.textContent = msg3;
+}
 
     // Display messages on page load
     displayMessages();
