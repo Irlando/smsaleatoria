@@ -9,11 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
         "odja md ta rapian 👻 corpo, kkkkk", 
         "keli go bu ka esperaba. kkkk",
         "djan kreba odjaba bu rosto ta leba isso😅",*/
-        "😅❤️❤️❤️❤️💕😅",
+        "❤️❤️❤️❤️💕",
         "Eu te amo muito! Você é muito.",
-        "Cada momento ao seu lado é um presente. Meu amor por você cresce a cada dia.",
-        "Seu sorriso ilumina meu dia. Você é a razão da minha felicidade.",
-        "Não há palavras suficientes para expressar o quanto eu te adoro.",
+        "Cada momento ao seu lado é um presente.",
+        "Seu sorriso ilumina meu dia.  ❤️ ",
+        /*"Não há palavras suficientes para expressar o quanto eu te adoro.",
         "Você me completa de uma forma que eu nunca imaginei ser possível. Amo você!",
         "Meu coração é seu, hoje e sempre. Te amo além das estrelas.",
         "Você é a minha melodia favorita em meio ao caos do mundo. Amo você!",
@@ -23,22 +23,21 @@ document.addEventListener('DOMContentLoaded', () => {
         "Você é a razão do meu sorriso e da minha felicidade. Te amo profundamente.",
         "Cada dia ao seu lado é uma bênção. ",
         "Te amo mais do que palavras podem dizer.",
-        "Você é a minha inspiração diária. Te amo mais do que você pode imaginar.", 
+        "Você é a minha inspiração diária. Te amo mais do que você pode imaginar.", */
         "cada momento com você é especial.",
-        "tudo que faço é pensando em você.",
+        /*"tudo que faço é pensando em você.",
         "voce deu sentido à minha vida. Te amo mais do que tudo.",
         "Te amo mais do que palavras podem expressar.",
         "palavras não podem descrever o quanto eu te amo.",
         "a distancia não diminui meu amor por você. Você está sempre no meu coração.",
-        "todos esses anos longe, meu amor por você só cresceu.",
+        "todos esses anos longe, meu amor por você só cresceu.",*/
         "queria tanto poder estar com você agora. ",
-        "Queria tanto poder te abraçar agora. ",
-        "Cada live que faço é pensando em você. ",
-        "Sentir seu cheiro é como sentir o perfume das flores mais lindas. ",
+        "Queria tanto poder te abraçar agora. ", 
+        /*"Sentir seu cheiro é como sentir o perfume das flores mais lindas. ",
         "Seu olhar é como um farol que ilumina meu caminho.",
-        "nosso encontro foi como um sonho realizado. ",
+        "nosso encontro foi como um sonho realizado. ",*/
         "Eu nao gostei de estar com você, eu amei !.",
-        "nosso emogis são como um reflexo do nossos sentimentos. Eles falam por nós.",
+        /*"nosso emogis são como um reflexo do nossos sentimentos. Eles falam por nós.",
         "nossa loucura juntos foi a melhor parte dessa historia doida.",
         "Quria ser seu cinto, para te abraçar e sentir seu calor. acima de tudo, tocar essas tores.",
         "Esse olhar... que perigo bom!",
@@ -58,9 +57,9 @@ document.addEventListener('DOMContentLoaded', () => {
         "Teu olhar desbloqueou meu firewall.",
         "Quero um while true loop contigo.",
         "Nosso algoritmo de atração é complexo e viciante.",
-        "Tens a chave de acesso ao meu sistema.",
+        "Tens a chave de acesso ao meu sistema.",*/
         "Teu sorriso é meu bug favorito, me para por completo.",
-        "Sinto que nossa conexão é de alta velocidade.",
+        /*"Sinto que nossa conexão é de alta velocidade.",
         "Quero depurar cada detalhe teu.",
         "Teu input gerou o melhor output no meu dia.",
         "Minha API está pronta para teus requests.",
@@ -68,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Nosso match tem a melhor heurística.",
         "Teu charme é um exploit no meu sistema de defesa.",
         "Quero ser o admin do teu coração.",
-        "Nosso encontro foi só o beta test do que vem por aí.", 
+        "Nosso encontro foi só o beta test do que vem por aí.", */
     ];
 
 const message1Element = document.getElementById('message1');
